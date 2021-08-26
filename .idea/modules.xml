@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/web.iml" filepath="$PROJECT_DIR$/.idea/web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-spring-ioc/web-spring-ioc.iml" filepath="$PROJECT_DIR$/web-spring-ioc/web-spring-ioc.iml" />
     </modules>
   </component>
 </project>
