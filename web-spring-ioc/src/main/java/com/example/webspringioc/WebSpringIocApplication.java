@@ -9,15 +9,21 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 public class WebSpringIocApplication {
-
-    public static void main(String[] args) {
+    static {
         fork();
+    }
+    public static void main(String[] args) {
+
 
         SpringApplication.run(WebSpringIocApplication.class, args);
+
         ExampleBean5.testBean("test_add_singleton_bean");
         ExampleBean5.testBean("devProfile");
         ExampleBean5.testBean("testProfile");
+        ExampleBean5.testBean("defaultProfile");
     }
+
+
 
     private static void fork() {
         new Thread(() -> {

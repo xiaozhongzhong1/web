@@ -31,4 +31,12 @@ public class ExampleBean6 {
         }
     }
 
+    @Configuration
+    public class ProfileDefaultBean {
+        @Bean
+        public Object defaultProfile() {
+            return new Object();
+        }
+    }
+
 }
