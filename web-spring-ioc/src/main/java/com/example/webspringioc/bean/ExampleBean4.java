@@ -26,7 +26,7 @@ public class ExampleBean4 implements BeanFactoryPostProcessor, Ordered {
         //可以将一个对象实例写入spring
         configurableListableBeanFactory.registerSingleton("test_add_singleton_bean", new Object());
 
-        final Iterator<String> beanNamesIterator = configurableListableBeanFactory.getBeanNamesIterator();
+        /*final Iterator<String> beanNamesIterator = configurableListableBeanFactory.getBeanNamesIterator();
         while (beanNamesIterator.hasNext()) {
             try {
                 final String next = beanNamesIterator.next();
@@ -36,7 +36,7 @@ public class ExampleBean4 implements BeanFactoryPostProcessor, Ordered {
                 System.out.println(e);
             }
         }
-
+*/
     }
 
 

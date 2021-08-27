@@ -15,6 +15,8 @@ public class WebSpringIocApplication {
 
         SpringApplication.run(WebSpringIocApplication.class, args);
         ExampleBean5.testBean("test_add_singleton_bean");
+        ExampleBean5.testBean("devProfile");
+        ExampleBean5.testBean("testProfile");
     }
 
     private static void fork() {
